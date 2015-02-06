@@ -22,7 +22,9 @@
 \usepackage[resetlabels]{multibib}
 
 % Multibib citation definitions
-\newcites{journal,conference,other}{Refereed Journals, Refereed Conference and Workshop Proceedings, Non-Refereed Scientific Contributions} 
+\newcites{journal,conference,other}{Refereed Journals, Refereed Conference and Workshop 
+Proceedings, 
+Non-Refereed Scientific Contributions} 
 
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
@@ -89,21 +91,21 @@
 
 \section{Publications}
 % Journal articles
-\bibliographystylejournal{plainyr-rev}
+\bibliographystylejournal{ieeetr}
 \nocitejournal{*}
 \bibliographyjournal{journal}
 
 \vspace{2mm}
 %
 % Conference articles
-\bibliographystyleconference{plainyr-rev}
+\bibliographystyleconference{ieeetr}
 \nociteconference{*}
 \bibliographyconference{conference}
 
 \vspace{2mm}
 %
 % Other scientific
-\bibliographystyleother{plainyr-rev}
+\bibliographystyleother{ieeetr}
 \nociteother{*}
 \bibliographyother{other}
 
@@ -117,8 +119,22 @@
 
 %\section{Experience}
 \section{Academic Research}
-\cventry{2010--Present}{Research Assistant}{University of Miami, Department of Computer Science, Coral Gables}{}{USA}{\begin{enumerate}\item \textbf{BioAssay Ontology Development} \begin{itemize}\item During this project, we have used Description Logic and Bayesian networks to capture the semantics 
-in high throughput screening assays for minimal information formalisms and assay annotation. \item I have developed a state-of-the art ontology modularization framework to handle large scale ontologies without compromising the interpretation of the domain of discourse. \item I have developed a framework to reason large scale ontologies using standard OWL 2 reasoners and the Hadoop Map-Reduce framework. This framework has been used in the preliminary stages of the knowledge-based reporting project.   \end{itemize} \item \textbf{RegenBase Ontology Development} \begin{itemize}\item The development of  OWL 2 ontologies that allow domain experts to link data and results from studies on nervous system injury and disease to data and knowledge from other domains with an emphasis on molecular targets and the small molecules that perturb their function to speed the development of novel therapeutics. \item I have developed  various Prot\'{e}g\'{e} plugins (e.g. paper annotation plugin, OBO2OWL) based on the requirements from domain experts to expedite knowledge 
+\cventry{2010--Present}{Research Assistant}{University of Miami, Department of Computer Science, 
+Coral Gables}{}{USA}{\begin{enumerate}\item \textbf{BioAssay Ontology Development} 
+\begin{itemize}\item During this project, we have used Description Logic and Bayesian networks to 
+capture the semantics 
+in high throughput screening assays for minimal information formalisms and assay annotation. \item 
+I have developed a state-of-the art ontology modularization framework to handle large scale 
+ontologies without compromising the interpretation of the domain of discourse. \item I have 
+developed a framework to reason large scale ontologies using standard OWL 2 reasoners and the 
+Hadoop Map-Reduce framework. This framework has been used in the preliminary stages of the 
+knowledge-based reporting project.   \end{itemize} \item \textbf{RegenBase Ontology Development} 
+\begin{itemize}\item The development of  OWL 2 ontologies that allow domain experts to link data 
+and results from studies on nervous system injury and disease to data and knowledge from other 
+domains with an emphasis on molecular targets and the small molecules that perturb their function 
+to speed the development of novel therapeutics. \item I have developed  various Prot\'{e}g\'{e} 
+plugins (e.g. paper annotation plugin, OBO2OWL) based on the requirements from domain experts to 
+expedite knowledge 
 acquisition, and assay annotation phases. These tools are used in related ontology projects in different capacities.  \end{itemize} \item \textbf{RoboCup Soccer} \begin{itemize}\item I have used the RoboCup Standard Platform (NAO humanoid robots) and the 3D Soccer Simulation League as test environments to conduct research on learnable knowledge representations and real-time reasoning to build autonomous agents. \item I have extended the $\mathcal{SROIQV}^\mathcal{D}$ description logic to represent dynamic  knowledge  of  the world without compromising satisfiability guarantees. In addition to this, I have used general value function in reinforcement learning as a method to represent predictive knowledge in role assignments in soccer formations.     \end{itemize} \item \textbf{Embedded Systems} \begin{itemize} 
 \item  I have developed  unification methodologies to detect abnormal events, e.g., a fall event, for humans and biped humanoid robots while performing normal activities such as jogging, running and so forth. \item In this study, I have developed: \begin{inparaenum}[1)] \item 
 methods to learn and predict different activities for humans and robots; and \item software 
@@ -130,7 +146,16 @@ framework; and \item  a  novel software development environment for embedded sys
 
 \section{Teaching}
 \cventry{Fall~2011}{Instructor}{University of Miami, Department of Computer Science, Coral Gables}{}{USA}{\begin{itemize} \item I have prepared and taught the graduate course "Semantic Web" with Dr. Ubbo Visser. I have prepared lecture materials, assignments, and course schedule from scratch. \end{itemize}}
-\cventry{2008--2010}{Teaching Assistant}{University of Miami, Department of Computer Science, Coral Gables}{}{USA}{\begin{itemize} \item I have taught and graded computer science courses during the fall and spring semesters for the following classes: CSC314 - Computer Ornaization, CSC322 - Unix and C, . I was responsible for teaching labs, helping with assignments, and giving occasional seminars. I received  awards in recognition of my teaching skills and performance from the department. \end{itemize}}
+\cventry{2008--2010}{Teaching Assistant}{University of Miami, Department of Computer Science, Coral 
+Gables}{}{USA}{\begin{itemize} \item I have taught and graded computer science courses during the 
+fall and spring semesters for the following classes: \begin{inparaenum}[1)]
+\item Computer Programming I (CSC120); \item Computer Programming II (CSC220); \item  
+Computer Organization and Architecture (CSC314); \item C Programming and UNIX (CSC322); \item   
+Principles of Computer Operating Systems (CSC421); and \item Introduction to Artificial 
+Intelligence (CSC545). \end{inparaenum} I was responsible for teaching labs, helping with 
+assignments, and giving occasional seminars. I received  awards in recognition of my teaching 
+skills and performance from the department. 
+\end{itemize}}
 
 
 \section{Employment}
@@ -151,7 +176,8 @@ framework; and \item  a  novel software development environment for embedded sys
 %\cventry{Nov~2010}{URSW, 2010}{}{``PrOntoLearn: Unsupervised Lexico-Semantic Ontology Generation using Probabilistic Methods''}{}{}
 %\cventry{May~2013}{ALA, 2013}{}{``Dynamic Role Assignment using General Value Functions''}{}{}
 %\cventry{July~2014}{RoboCup, 2014}{}{``A New Real-Time Algorithm to Extend DL Assertional Formalism to Represent and Deduce Entities in Robotic Soccer''}{}{}
-\cventry{Dec~2014}{WSO2, Inc, Colombo, Sri Lanka}{``Learnable Knowledge Representations for Autonomous Agents''}{}{}{}
+\cventry{Dec~2014}{WSO2, Inc}{Colombo, Sri Lanka}{``Learnable Knowledge Representations for 
+Autonomous Agents''}{}{}{}
 
 
 %\section{Poster Presentations}
@@ -174,7 +200,8 @@ framework; and \item  a  novel software development environment for embedded sys
 \item This is a lightweight C\texttt{++} template library that implements incremental, standard, and gradient temporal-difference learning algorithms in reinforcement learning. It is an optimized library for robotic applications and embedded devices that operates under fast duty cycles (e.g., $\leq$ 30 ms). RLLib has been tested and evaluated on RoboCup 3D soccer simulation agents,  physical NAO V4 humanoid robots, and Tiva C series launchpad microcontrollers  to predict, control, learn behaviors, and represent learnable knowledge. 
 \end{itemize}}
 
-\cventry{2014--Present}{Energia}{C\texttt{++} Framework to Develop Embedded Software}{}{}{\begin{itemize} 
+\cventry{2014--Present}{$\mu$Energia}{C\texttt{++} Framework to Develop Embedded 
+Software}{}{}{\begin{itemize} 
 \item  This is a software development platform for MSP-EXP430G2 LaunchPad, Tiva C Series
 EK-TM4C123GXL LaunchPad, and Tiva C Series TM4C129 Connected LaunchPad. The framework is
 lightweight, flexible, and consumes minimum memory and computational resources to build
@@ -195,9 +222,23 @@ applications and rational agents on microcontrollers that sense and actuate usin
 \cvitem{Professional}{C, C\texttt{++}, Java, and Matlab, R for both Linux and Windows.}
 
 \section{Interests}
-\cvitem{Badminton}{I am an active Badminton player since 1995. I was the president of University of Miami Badminton Club from 2009--2012. My duties were to manage all activities related to the club,  and participating in tournaments. }
+\cvitem{Badminton}{I am an active Badminton player since 1995. I was the president of University of 
+Miami Badminton Club from 2009--2012. My duties were to manage all activities related to the club,  
+and participating in tournaments. }
+\cvitem{Cricket}{I professionally played Cricket for my high school, De Mazenod College, Kandana, 
+Sri Lanka, from 1993--1996. Currently, I 
+participate in recreational Cricket tournaments in South Florida.}
 %\cvitem{hobby 2}{Description}
 %\cvitem{hobby 3}{Description}
+
+\section{Massive Open Online Courses}
+\cvitem{}{In my free time, I have tried to keep my knowledge sharp in a number of areas using open 
+source courses from:}
+\cvitem{coursera.org}{Machine Learning (Stanford University), Neural Networks for Machine 
+Learning (University of Toronto), Heterogeneous Parallel Programming (University of Illinois at 
+Urbana-Champaign), Control of Mobile Robots (Georgia Institute of Technology), and Game Theory 
+(Stanford University \& The University of British Columbia).}
+\cvitem{edx.org}{EE40LX Electronic Interfaces (BerkeleyX).}
 
 % \section{Extra 1}
 % \cvlistitem{Item 1}
