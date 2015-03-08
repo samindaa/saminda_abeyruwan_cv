@@ -1,0 +1,258 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 
+%% Saminda Abeyruwan's resume
+%%   - based off work by Michael DeCorte 
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%
+%% The following code sets up the document formatting
+%%
+
+%this assumes that res_yy.sty is in some path
+\documentstyle[hyperref, margin, line]{res_yy}
+
+\hypersetup{backref,pdfpagemode=Full,colorlinks=true,backref}
+
+\addtolength{\oddsidemargin}{-0.50in}
+\addtolength{\voffset}{-0.30in}
+\addtolength{\textwidth}{1.45in} \addtolength{\textheight}{2.00in}
+
+\renewcommand{\namefont}{\LARGE\textbf}
+
+
+
+%%
+%% The following code defines some macros for terms which have raised font
+%% (ie 4\fourth would result 4th with the 'th' raised (superscripted)
+%%
+
+
+%%
+%% starting the actual document
+%%
+
+\begin{document}
+
+%the name in big fonts at the top of resume
+%this is left aligned
+\name{Saminda Abeyruwan}
+
+%this is right aligned
+\address{\bf{(305) 457 9753} $\circ$
+\bf{\href{http://saminda.org}{http://saminda.org}} $\circ$ \bf{samindaa@gmail.com} }
+
+\begin{resume}
+
+
+%%
+%% This section of code is inelegant, but I'm too lazy to fix it
+%%
+
+%\section{\textsc{Interest}}
+%To obtain a software development internship that provide an opportunity for
+%advance within the enterprise.
+\vspace{-5mm}
+\section{\textsc{Education}}
+
+\textbf{University of Miami, Coral Gables, FL} \hfill Fall 2010 -- Present \\
+Ph.D. Student in Computer Science \hfill Expected: July, 2015 \\
+\newline
+\textbf{University of Miami, Coral Gables, FL} \hfill Fall 2008 -- Spring 2010 \\
+M.S. in Computer Science \hfill GPA: 4.0 \\
+\newline
+\textbf{University of Moratuwa, Sri Lanka} \hfill November 2000 -- November 2004 \\ 
+B.Sc. in Electrical Engineering \hfill GPA: 3.79 -- Honors with
+First Class
+
+
+
+%%
+%% the meat of the resume starts now
+%%
+
+\begin{formatb}
+  \title{l}\dates{r}\\
+  \body\\
+\end{formatb}
+
+\vspace{-2mm}
+\section{\textsc{Experience}}
+
+\title{\textbf{Software Developer:  Center for Computer Science, Miami, FL}}
+\dates{(Summer term) 2010 -- 2014}
+\begin{position}
+$\circ$ Designed, developed, and implemented internal tools and specifications to support research 
+activities in different projects, specially, BioAssay Ontology and RegenBase projects.
+\end{position}
+
+\title{\textbf{Technical Lead: WSO2 Inc, Sri Lanka}}
+\dates{January 2004 -- July 2008}
+\begin{position}
+$\circ$ Developed middleware applications using the principles of service-oriented 
+architecture and Apache Web services projects.   \newline $\circ$ 
+Managed a software team to integrate the Web Services Application Server with Apache Web services. 
+Developed enterprise service bus with Apache Synapse project.\newline $\circ$ Researched and 
+developed 
+applications that utilized OSGi technologies.
+\end{position}
+
+
+\title{\textbf{Electrical Engineer Intern: Ceylon Electricity Board, Sri Lanka}}
+\dates{January 2003 -- June 2003}
+\begin{position}
+$\circ$ Assisted in the development of a project based on C\texttt{++} that monitors the national 
+power 
+grids. 
+\end{position}
+
+%%
+%% We use the same formatting for projects as for work experience
+%% Shown below is the formatting used previously
+%%
+%%  \begin{formatb}
+%%    \employer{l}\title{r}\\
+%%    \location{l}\dates{r}\\
+%%    \body\\
+%%  \end{formatb}
+%%
+%% 
+%%  Note that \location is now being used for non-location information
+%%
+
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+  \body\\
+\end{formatb}
+
+\vspace{-2mm}
+\section{\textsc{Technical Experience and Projects}}
+
+\employer{\textbf{Embedded Systems}}
+\dates{Spring 2013 -- Present}
+\begin{position}
+$\circ$ Developed  unification methodologies to detect abnormal events using embedded devices.
+\end{position}
+
+\employer{\textbf{RegenBase Ontology Development}}
+\dates{Fall 2012 -- Present}
+\begin{position}
+$\circ$ Developed ontologies to link data 
+and results from studies on nervous system injury and disease to data knowledge to speed the 
+development of novel therapeutics. \newline $\circ$ Developed  various Prot\'{e}g\'{e} plugins to 
+expedite knowledge acquisition, and assay annotations.
+\end{position}
+
+\employer{\textbf{Bio Assay Ontology Development}}
+\dates{Fall 2010 -- Present}
+\begin{position}
+$\circ$ Used description logic and Bayesian networks to capture the semantics 
+in high throughput screening assays for minimal information formalisms and assay annotation. 
+\newline $\circ$ Developed a framework to reason large scale ontologies using standard reasoners 
+and 
+Hadoop map-reduce framework. \newline $\circ$ Developed a state-of-the art ontology modularization 
+framework for large scale 
+ontologies. 
+\end{position}
+
+\employer{\textbf{RoboCup Soccer}}
+\dates{Fall 2010 - Present}
+\begin{position}
+$\circ$ Used the RoboCup Standard Platform (NAO humanoid robots) and the 3D Soccer Simulation 
+League as 
+test environments to research on real-time reasoning to build autonomous agents. \newline $\circ$  
+Used 
+general value function in reinforcement learning as a method to  represent predictive knowledge in 
+role 
+assignments in soccer formations.
+\end{position}
+
+
+
+
+
+
+%%
+%% This section could also use more formatting, but looks ok, as is
+%%
+
+%\section{\textsc{Qualifications}}
+
+%\emph{Programming Languages}: \Cplusplus, \CSharp, Cg, HLSL, ARB assembly, SML, OCaML, PHP, MySQL, Java, Python, Perl, MIPS assembly
+
+%\emph{Libraries and Tools}: Vim, STL, DirectX, OpenGL, \LaTeX, GIMP, Adobe Suite, Macromedia Suite, MatLab, Mathematica, Microsoft Visual Studio, GCC, GDB
+
+
+%%
+%% Note that we're redefining the formatting
+%% We only have one row of information now, instead of two
+%%
+
+\vspace{-2mm}
+\section{\textsc{Additional Experience and Awards}}
+
+\begin{formatb}
+  \employer{l}\dates{r}\\
+  \body\\
+\end{formatb}
+
+\employer{\textbf{Research Assistant: University of Miami, Coral Gables, FL}}
+\dates{Fall 2010 - Present}
+\begin{position}
+$\circ$  Taught Semantic Web and technologies graduate course during Fall 2011 with Dr.
+Ubbo Visser.  
+\end{position}
+
+\employer{\textbf{Teaching Assistant: University of Miami, Coral Gables, FL}}
+\dates{Fall 2008 - Spring 2010}
+\begin{position}
+$\circ$  Taught and graded computer science courses during the Fall and Spring
+semesters of the 2008 -- 2010 academic years. \newline $\circ$   Received the best TA award in recognition of the teaching
+performance.
+\end{position}
+
+%\employer{\textbf{University of Miami Badminton Club President}}
+%\dates{Fall 2010 - Present}
+%\begin{position}
+%Manage all activities related to Badminton Club. Participating in tournaments.  
+%\end{position}
+
+\employer{\textbf{Member: Apache Software Foundation}}
+\dates{November 2004 - Present}
+\begin{position}
+$\circ$  Apache Web Services project committer  and project management committee (PMC)  member.
+\end{position}
+
+\vspace{-2mm}
+\section{\textsc{Languages and Technologies}}
+
+\employer{\textbf{C, C\texttt{++}, Java, JavaScript, and Matlab}}
+\dates{~}
+\begin{position}
+CUDA, Hadoop, WebGL, Energia, Ubuntu, Windows, Eclipse IDE, Make, Maven, and
+Git.
+\end{position}
+
+
+
+%%
+%% Nothing special here, just a normal table
+%%
+
+%\section{\textsc{Course Work}}
+%  \begin{tabular}{lllll}
+%  Information Networks   & \ \ & Machine Learning    & \ \ & Theory of Computation \\ 
+%  Computer Graphics      & \ \ & Machine Vision      & \ \ & Programming Languages \\
+%  Software Engineering   & \ \ & Algorithms          & \ \ & Artificial Intelligence     \\
+%  Operating Systems      & \ \ & Databases           & \ \ & Computer Architecture \\
+%  Numerical Methods      & \ \ & Graph Theory        & \ \ & Differential Equations      \\
+%  Probability Theory     & \ \ & Number Theory       & \ \ & Differential Geometry       \\
+%  Advanced Calculus      & \ \ & Abstract Algebra    & \ \ & Advanced Combinatorics   \\
+%  \end{tabular}
+
+
+\end{resume}
+\end{document}
